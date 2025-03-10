@@ -86,5 +86,33 @@ body {
 
 .animais-lista li{
     cursor: pointer;
+
+}
+
+.animais-lista::-webkit-scrollbar{
+    width: 18px;
+}
+
+.animais-lista::-webkit-scrollbar-thumb{
+    background: #fb5;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track{
+    background: #faf6ed;
+}
+
+.animais-descricao{
+    grid-column: 3;  
+}
+
+.animais-descricao section{
+    margin-bottom: 3rem;
+}
+
+.faq-lisa dt{
+    font-family: monospace;
+    font-weight: bold;
     
 }
