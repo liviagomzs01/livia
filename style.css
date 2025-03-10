@@ -111,8 +111,20 @@ body {
     margin-bottom: 3rem;
 }
 
-.faq-lisa dt{
+.faq-lista dt{
     font-family: monospace;
     font-weight: bold;
-    
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    color: #E54;
 }
+
+.faq-lista dt::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    background: #fb5;
+}
+
