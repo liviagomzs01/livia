@@ -62,3 +62,29 @@ body {
     margin-bottom: 1rem;
     grid-column: 1 / 4;
 }
+
+.animais h2::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #fb5;
+}
+
+.animais p{
+    font-family: Helvetica;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.animais-lista{
+    height: 370px;
+    overflow-y: scroll;
+    grid-column: 2;
+}
+
+.animais-lista li{
+    cursor: pointer;
+    
+}
