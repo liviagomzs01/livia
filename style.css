@@ -196,3 +196,13 @@ body{
         margin-bottom: 0px;
     }
 }
+
+.js .js-tabcontent section {
+    display: none;
+}
+
+.js-tabcontent section.ativo{
+    display: block !important;
+    animation: show .5s forwards;
+    
+}
